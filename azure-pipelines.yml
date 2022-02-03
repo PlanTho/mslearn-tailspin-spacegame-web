@@ -7,7 +7,9 @@ trigger:
 - main
 
 pool:
-  pool: MyPool
+  name: Default
+  demands:
+   - agent.name -equals THOFUJITSUU7510
 
 variables:
   buildConfiguration: 'Release'
