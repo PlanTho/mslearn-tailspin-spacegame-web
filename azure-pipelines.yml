@@ -10,7 +10,6 @@ pool:
   name: Default
   demands:
    - agent.name -equals THOFUJITSUU7510
-   - npm
 
 variables:
   buildConfiguration: 'Release'
